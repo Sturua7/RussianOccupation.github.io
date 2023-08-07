@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #AA1111;
+}
+.main{
+    background-image: url(../image/georgia-russia-flags-background-military-conflict-war-independence-concept-photo_526934-6082.jpg);
+ }
+ header{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.747);
+ }
+ .ruka{
+     width: 60%;
+    margin:50px auto;
+    position: relative;
+    left: -1600px;
+    animation: myfirst 10s infinite;
+ }
+ .putin{
+     width: 20%;
+ }
+
+
+ .ruka img{
+     width: 100%;
+ } 
+
+ @keyframes myfirst {
+    0%   {left:-1600px; top:0px;}
+    20%  {left:100px; top:0px;}
+    40%  {left:-300px; top:0px;}
+    60%  {left:0px; top:0px;}
+    80% {left:-1600px; top:0px;}
+    100% {left:1600px; top:0px;}
+  }
+ ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ul li a{
+    color: #ffffff;
+    padding: 20px 50px;
+    position: relative;
+}
+
+ul li a:hover{
+    background-color: #e52121;
+    color: #000000;
+    transition: width 2s, background-color 2s;
+}
+
+.socialcontainer{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 118px;
+}
+.socialcontainer div{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.socialcontainer div a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.socialcontainer .facebook{
+    background-image: url(../image/facebook.png)
+}
+
+.socialcontainer .tbc{
+    background-image: url(../image/tbc.png)
+}
+
+/* .logo{
+    width: 100px;
+    height: 100px;
+}
+.facebook{
+    width: 100px;
+    height: 100px;
+    background-image: url(../image/facebook\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.tbc{
+    width: 100px;
+    height: 100px;
+    background-image: url(../image/tbc1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   position: sticky;
+}
+.facebook:hover{
+    background-image: url(../image/facebook.png);
+    cursor: pointer;
+}
+.tbc:hover{
+    background-image: url(../image/tbc.png);
+    cursor: pointer;
+} */
+.surati{
+    width:400px;
+    height: 500px;
+}
+.sur{
+    width:400px;
+    height: 250px;
+}
+.ss{
+    margin: 0 auto;
+    width:600px;
+    height: 500px;
+}
+.sg{
+    width:600px;
+    height: 500px;
+    margin: 0px auto;
+}
+.sv{
+    width:600px;
+    height: 500px;
+    margin: 0 auto
+}
+.mm{
+    width:600px;
+}
+.social{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+.vid{
+    width: 320px;
+    margin: 0 auto;
+}
+.vid{
+    width: 100%;
+}
+.social{
+    margin-top: 90%;
+}
+.sc{
+margin-top: -7%;
+margin-left: 90%;
+}
+.sn{
+    margin-top: 2%;
+    margin-left: 90%;
+}
+.put{
+position: relative;
+animation: chemianimacia 1s infinite;
+}
+@keyframes chemianimacia{
+0%{top: 0px; left:0px;}
+25%{top: 0px; left: 388px;}
+50%{top:158px; left: 388px;}
+75%{top: 158px; left:0px;}
+100%{top:0px; left:0px;}
+}
+
+@media only screen and (max-width: 390px) {
+    header{
+        width: 100%;
+    }
+    .flex{
+        flex-direction:column;
+    }
+    ul li{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 820px) {
+    header{
+        width: 100%;
+    }
+    .flex{
+        flex-direction:column;
+    }
+    ul li{
+        width: 100%;
+    }
+}
